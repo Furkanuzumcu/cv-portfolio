@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-left">
-        &copy; {currentYear} Asel Turatbek Kyzy
+        &copy; {currentYear} Furkan Üzümcü
       </div>
 
       <div className="footer-center">

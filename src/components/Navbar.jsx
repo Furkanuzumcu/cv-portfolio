@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <header className="navbar">
       <div className="navbar__left">
-        <span className="navbar__logo" onClick={handleHomeClick}>Asel Turatbek</span>
+        <span className="navbar__logo" onClick={handleHomeClick}>Furkan Üzümcü</span>
       </div>
 
       <div className={`navbar__center ${isOpen ? 'open' : ''}`}>

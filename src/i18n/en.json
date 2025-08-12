@@ -1,62 +1,63 @@
 {
   "home": "Home",
-  "about": "About Me",
+  "about": "About",
   "projects.navbar": "Projects",
   "contact": "Contact",
 
   "home.title": "Full Stack<br />Developer",
-  "home.intro": "Hi, I’m <strong>Asel Turatbek Kyzy</strong><br />Turning innovative ideas into clean, scalable,<br />and user-focused <i>web & mobile</i> solutions.",
-  
-  "about.titleTag": "ABOUT ME", 
-  "about.title": "Discover Me",
-  "about.viewCv": "View My Resume",
-  "about.profile": "I'm a full-stack developer passionate about turning real-world ideas into impactful applications. I’ve worked on various web and mobile projects, some of them funded by TÜBİTAK, handling both frontend and backend tasks. I'm always eager to learn and grow in collaborative environments.",
+  "home.intro": "Hello, I’m <strong>Furkan Üzümcü</strong><br />I transform innovative ideas into simple, scalable, and<br />user-focused <i>web & mobile</i> solutions.",
+
+  "about.titleTag": "ABOUT ME",
+  "about.title": "Get to Know Me",
+  "about.viewCv": "View My CV",
+  "about.profile": "I am a full-stack developer passionate about bringing real-world projects to life. I have actively taken on both frontend and backend roles in various web and mobile projects. I am a team player, eager to learn, and constantly focused on improvement.",
 
   "about.educationTitle": "Education",
-  "about.uni": "Bartin University, Faculty of Science",
-  "about.degree": "B.Sc. in Computer Technology and Information Systems",
- 
+  "about.uni": "Bartın University, Faculty of Science",
+  "about.degree": "Bachelor’s in Computer Technology and Information Systems",
+
   "about.experienceTitle": "Experience",
-  "about.exp1": "Azerion (Oct 2024 – Present)\nInternship – Worked on humoq.com (Next.js + Go), voidu.com admin flow, and thegurume.com AI features using Nest.js and MongoDB.",
-  "about.exp2": "Freelance (Oct 2024 – Dec 2024)\nLed the development of a real-time social app (React Native + Node.js + Firebase).",
+  "about.exp1": "ARGE TECH – Bilişim Vadisi (February 2023 – September 2023)\n Intern – Volunteered for 8 months in the development of physical therapy equipment within ARGE Tech.",
 
-  "about.skillsTitle": "Tech Stack",
+  "about.skillsTitle": "Technologies",
   "about.languagesTitle": "Languages",
-  "about.lang1": "English – B2+ (Professional)",
-  "about.lang2": "Turkish – C2 (Advanced)",
-  "about.lang3": "Russian – C2 (Advanced)",
-  "about.lang4": "Kyrgyz – Native",
-  "projects": {
-    "titleTag": "PROJECTS",
-    "title": "Highlighting projects that shaped my journey as a developer and problem-solver.",
-    "swipeHint": "← swipe to view more →",
+  "about.lang1": "English – Professional Working Proficiency (B2+)",
 
-    "project1": {
-      "title": "MasAI – AI-Powered Storytelling App",
-      "subtitle": "Fullstack Developer | TÜBİTAK 2209-A | 2025",
-      "description": "Developed a mobile app that generates personalized children's stories using AI."
-    },
-    "project2": {
-      "title": "EcoOil – Waste Oil Recycling App",
-      "subtitle": "Frontend Developer | TÜBİTAK 2209-A | 2023–2024",
-      "description": "Mobile app for scheduling and tracking waste oil pickups with map-based density insights."
+  "projects": {
+    "titleTag": "MY PROJECTS",
+    "title": "Highlighted projects that have shaped my journey as a developer and problem solver.",
+    "swipeHint": "← swipe to see more →",
+
+    "project5": {
+      "title": "Pet Adoption Website",
+      "subtitle": "Full Stack Developer",
+      "description": "Technologies: HTML, CSS, SQL Server, ASP.NET MVC. A secure and user-friendly web platform with an admin panel designed to simplify the pet adoption process through database integration."
     },
     "project3": {
-      "title": "Beauty Center Management System",
-      "subtitle": "Fullstack Developer | In Development | 2025–Present",
-      "description": "Web app for beauty centers to manage appointments and inventory. Includes responsive dashboard and RESTful APIs."
+      "title": "Disaster Information Mobile App",
+      "subtitle": "Full Stack Developer",
+      "description": "Technologies: Flutter, Firebase. A high-performance and reliable mobile application that provides real-time access to critical information during disasters through live database integration."
+    },
+    "project2": {
+      "title": "Beauty Salon Management System",
+      "subtitle": "Full Stack Developer | In Development | 2025–Present",
+      "description": "Technologies: React.js, Node.js, Express.js, MySQL. A comprehensive web-based management system that digitizes appointment, stock, and customer management processes with a mobile-friendly admin panel and RESTful API support."
     },
     "project4": {
-      "title": "Real-Time Messaging App",
-      "subtitle": "Fullstack Developer | 2023",
-      "description": "University project: Real-time messaging with chat rooms, user auth, and live syncing using Firebase."
+      "title": "Real-Time Messaging Application",
+      "subtitle": "Full Stack Developer | 2023",
+      "description": "Technologies: React.js, Node.js, Express.js, Firebase. A real-time communication platform with features such as user authentication, chat rooms, and instant message synchronization, built with scalability and security in mind."
+    },
+    "project1": {
+      "title": "Digital Game for Physical Therapy Patients",
+      "subtitle": "Full Stack Developer | 2025",
+      "description": "Technologies: Unity, C#, Microsoft Kinect. An interactive digital rehabilitation game designed to gamify the physical therapy process, enhance patient motivation, and provide feedback through movement data analysis."
     }
   },
-  "contact.header": "GET IN TOUCH WITH ME",
-  "contact.subtext": "Drop me an email:",
+
+  "contact.header": "Get in Touch",
+  "contact.subtext": "You can send me an email:",
   "contact.github": "GitHub",
   "contact.linkedin": "LinkedIn",
   "footer.backToTop": "Back to Top"
-
-
 }

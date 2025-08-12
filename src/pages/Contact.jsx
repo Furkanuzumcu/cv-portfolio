@@ -12,13 +12,13 @@ const Contact = () => {
       <h1>{t("contact.header")}</h1>
 
       <p className="email-label">{t("contact.subtext")}</p>
-      <a href="mailto:aselturatbekk@gmail.com" className="email-link">
-        aselturatbekk@gmail.com
+      <a href="mailto:furkanuzumcu053@gmail.com" className="email-link">
+        furkanuzumcu053@gmail.com
       </a>
 
       <div className="social-buttons">
         <a
-          href="https://github.com/aselturatbek"
+          href="https://github.com/Furkanuzumcu"
           target="_blank"
           rel="noopener noreferrer"
           className="btn github"
@@ -26,7 +26,7 @@ const Contact = () => {
           <FaGithub /> {t("contact.github")}
         </a>
         <a
-          href="https://www.linkedin.com/in/aselturatbek/"
+          href="https://www.linkedin.com/in/furkanuzumcu/"
           target="_blank"
           rel="noopener noreferrer"
           className="btn linkedin"

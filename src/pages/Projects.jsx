@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import { FaGithub } from "react-icons/fa";
 import {
   SiNestjs, SiReact, SiMongodb, SiLaravel, SiMysql,
-  SiFirebase, SiNodedotjs, SiOpenai, SiSqlite
+  SiFirebase, SiNodedotjs, SiOpenai, SiSqlite,SiUnity
 } from "react-icons/si";
 
 import masai1 from "../assets/images/masai1.png";
@@ -33,10 +33,7 @@ const Projects = () => {
       images: [masai1, masai2, masai3],
       github: "https://github.com/aselturatbek/masai_frontend",
       tech: [
-        { icon: <SiNestjs />, name: "NestJS" },
-        { icon: <SiReact />, name: "React Native" },
-        { icon: <SiMongodb />, name: "MongoDB" },
-        { icon: <SiOpenai />, name: "OpenAi" }
+        { icon: <SiUnity />, name: "Unity C#" },
       ]
     },
     {
@@ -44,12 +41,12 @@ const Projects = () => {
       title: t("projects.project2.title"),
       subtitle: t("projects.project2.subtitle"),
       description: t("projects.project2.description"),
-      images: [ecooil1, ecooil2],
+      images: [salonapp1, salonapp3, salonapp2, salonapp4, salonapp5],
       github: "https://github.com/aselturatbek/EcoOilApp",
       tech: [
-        { icon: <SiReact />, name: "React Native" },
-        { icon: <SiLaravel />, name: "Laravel" },
-        { icon: <SiSqlite />, name: "SQLite" }
+        { icon: <SiReact />, name: "React" },
+        { icon: <SiNodedotjs />, name: "Node.js / Express" },
+        { icon: <SiMysql />, name: "MySQL" }
       ]
     },
     {

@@ -1,15 +1,15 @@
 import React from "react";
 import { Trans, useTranslation } from "react-i18next";
 import "../styles/Home.scss";
-import devImage from "../assets/images/asel_2.jpeg";
+import devImage from "../assets/images/üzüm.jpeg";
 
 import {
   FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaBootstrap,
-  FaGitAlt, FaGithub, FaJsSquare,
+  FaGitAlt, FaGithub, FaJsSquare
 } from "react-icons/fa";
 import {
   SiTypescript, SiNestjs, SiMongodb,
-  SiMysql, SiFirebase, SiJira
+  SiMysql, SiFirebase, SiJira,SiUnity
 } from "react-icons/si";
 import "./About.jsx";
 import About from "./About.jsx";
@@ -20,7 +20,6 @@ import Contact from "./Contact.jsx";
 const technologies = [
   { icon: <FaJsSquare />, name: "JavaScript" },
   { icon: <SiTypescript />, name: "TypeScript" },
-  { icon: <FaReact />, name: "React.js / Native" },
   { icon: <FaNodeJs />, name: "Node.js / Express" },
   { icon: <SiNestjs />, name: "NestJS" },
   { icon: <SiMongodb />, name: "MongoDB" },
@@ -29,6 +28,7 @@ const technologies = [
   { icon: <FaGitAlt />, name: "Git" },
   { icon: <FaGithub />, name: "GitHub" },
   { icon: <SiJira />, name: "Agile / Jira" },
+  { icon: <SiUnity />, name: "Unity" },
 ];
 
 const Home = () => {

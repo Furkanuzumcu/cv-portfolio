@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/About.scss";
 import { useTranslation, Trans } from "react-i18next";
 import { FaReact, FaNodeJs } from "react-icons/fa";
-import { SiNestjs, SiMysql } from "react-icons/si";
+import { SiNestjs, SiMysql,SiUnity } from "react-icons/si";
 
 const About = () => {
   const { t } = useTranslation();
@@ -29,6 +29,7 @@ const About = () => {
           <div className="about-card">
             <div className="card-header">{t("about.skillsTitle")}</div>
             <ul className="tech-list">
+              <li><SiUnity /> Unity C#</li>
               <li><FaReact /> React / React Native</li>
               <li><SiNestjs /> NestJS</li>
               <li><FaNodeJs /> Node.js / Express</li>
@@ -42,7 +43,7 @@ const About = () => {
             <div className="card-header">{t("about.experienceTitle")}</div>
             <ul>
               <li>{t("about.exp1")}</li>
-              <li>{t("about.exp2")}</li>
+              
             </ul>
           </div>
 
@@ -50,9 +51,7 @@ const About = () => {
             <div className="card-header">{t("about.languagesTitle")}</div>
             <ul className="tech-list">
               <li>{t("about.lang1")}</li>
-              <li>{t("about.lang2")}</li>
-              <li>{t("about.lang3")}</li>
-              <li>{t("about.lang4")}</li>
+             
             </ul>
           </div>
         </div>
